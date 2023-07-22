@@ -16,7 +16,7 @@ TextButton.Visible = false
 TextButton.Parent = ScreenGui
 
 UserInputService.InputBegan:Connect(function(inputObject, gameProcessedEvent)
-    if inputObject.KeyCode == Enum.KeyCode.RightControl then
+    if inputObject.KeyCode == Enum.KeyCode.O then
         TextButton.Visible = not TextButton.Visible
     end
 end)
